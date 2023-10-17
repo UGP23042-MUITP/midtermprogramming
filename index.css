@@ -1,0 +1,107 @@
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 36px;
+}
+
+.header h6 {
+    font-size: 14px;
+    color: #555;
+}
+
+.news {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.bottomlinks h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.article img {
+    max-width: 100%;
+    height: auto;
+}
+
+.articlecontent h2 {
+    font-size: 24px;
+}
+
+.articlecontent p {
+    font-size: 16px;
+}
+
+
+.sidebar {
+    width: 25%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar .pins {
+    margin-bottom: 20px;
+}
+
+.sidebar .pins h2 {
+    font-size: 18px;
+}
+
+.sidebar .pins img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sidebar .pins p {
+    font-size: 14px;
+}
+
+
+
+.bottomlinks ul {
+    list-style: none;
+    padding: 0;
+}
+
+.bottomlinks ul li {
+    margin-bottom: 5px;
+}
+
+.bottomlinks ul li a {
+    text-decoration: none;
+    color: #dcd1d1;
+    font-size: 14px;
+}
+
+.bottomlinks ul li a:hover {
+    color: #007BFF;
+}
+
+.bottomlinks { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
